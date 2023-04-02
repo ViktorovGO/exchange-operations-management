@@ -1,0 +1,5 @@
+cd /D
+pip install -U pyinstaller
+pyinstaller main.py
+copy MainForm.ui dist\main
+copy databases\db_ocb_1.db dist\main
